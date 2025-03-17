@@ -122,7 +122,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d09556d0e52df664d9cf5ab518d121e6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  speed: 3
+  speed: 2.5
   waveHeight: 1
   waveFrequency: 2
   animator: {fileID: 0}
