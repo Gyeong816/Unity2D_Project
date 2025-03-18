@@ -436,13 +436,20 @@ public class PlayerMovement : MonoBehaviour
             ParrySpark.SetActive(false);
             animator.SetBool("Jump", false);
         }
+
+
+
         if (collision.gameObject.CompareTag("MovingPlatform"))
         {
             isGrounded = true;
             animator.SetBool("Jump", false);
             transform.parent = collision.transform; 
         }
+
+
     }
+
+
     private void OnCollisionExit2D(Collision2D collision)
     {
         if (collision.gameObject.CompareTag("MovingPlatform"))
